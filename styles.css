@@ -1,0 +1,23 @@
+h1{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+body{
+    background-color: #2F3645;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 800px;
+    background-color: white;
+}
+#container > .circle{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #BC002D;
+}
